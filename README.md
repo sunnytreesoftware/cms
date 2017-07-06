@@ -1,1 +1,1 @@
-# MVC Horse's Proprietary CMS Developed with Laravel
+# Open Source CMS, Developed by MVC Horse using Laravel
