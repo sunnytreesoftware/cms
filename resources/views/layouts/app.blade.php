@@ -40,7 +40,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <span class="pull-left"><img height="32" src="images/logo_seahorse-web.png"></span>
+                    <span class="pull-left"><img height="32" src="{{ url('/') }}/images/logo_seahorse-web.png"></span>
                     CMS v0.01
                 </a>
             </div>
@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                        <li><a href="{{ url('/home') }}">Home</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
                 </ul>
 
 
