@@ -40,7 +40,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <span class="pull-left"><img src="images/logo_seahorse-web.png"></span>
+                    <span class="pull-left"><img height="32" src="images/logo_seahorse-web.png"></span>
                     CMS v0.01
                 </a>
             </div>
