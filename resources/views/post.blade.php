@@ -24,7 +24,13 @@
     <hr>
 
     <!-- Preview Image -->
-    <img src="{{$post->photo ? $post->photo->file : $post->photoPlaceholder()}}" alt="">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-8">
+                <img class="img img-responsive" src="{{$post->photo ? $post->photo->file : $post->photoPlaceholder()}}" alt="">
+            </div>
+        </div>
+    </div>
 
     <hr>
 
